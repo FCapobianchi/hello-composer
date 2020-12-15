@@ -9,9 +9,11 @@
             "email": "fabiano@juicenet.it"
         }
     ],
-    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {"fcapobianchi\\HelloWorld\\": "src/"}
     },    
-    "require": {}
+    "require": {
+        "php": ">= 7.1"
+    },
+    "minimum-stability": "stable"
 }
