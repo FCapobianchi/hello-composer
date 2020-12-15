@@ -1,0 +1,17 @@
+{
+    "name": "fcapobianchi/hello-composer",
+    "description": "A simple hello world composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabiano Capobianchi",
+            "email": "fabiano@juicenet.it"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"fcapobianchi\\HelloWorld\\": "src/"}
+    },    
+    "require": {}
+}
